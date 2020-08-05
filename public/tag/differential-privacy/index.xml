@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Differential privacy | Lovedeep Gondara</title>
+    <link>/tag/differential-privacy/</link>
+      <atom:link href="/tag/differential-privacy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Differential privacy</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Differential privacy</title>
+      <link>/tag/differential-privacy/</link>
+    </image>
+    
+    <item>
+      <title>Differentially Private Small Dataset Release Using Random Projections</title>
+      <link>/publication/uai2020_1/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/uai2020_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differentially Private Survival Function Estimation</title>
+      <link>/publication/mlhc2020/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/mlhc2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differentially Private Top-k Selection via Stability on Unknown Domain</title>
+      <link>/publication/uai2020_2/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/uai2020_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Differentially Private Lottery Ticket Mechanism</title>
+      <link>/publication/dpltm_arxiv/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/dpltm_arxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differential privacy in healthcare</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/post/getting-started/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Work in progress - check back later&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
