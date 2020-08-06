@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Lovedeep Gondara</title>
+    <link>/publication-type/1/</link>
+      <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>1</title>
+      <link>/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>Differentially Private Small Dataset Release Using Random Projections</title>
+      <link>/publication/uai2020_1/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/uai2020_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differentially Private Survival Function Estimation</title>
+      <link>/publication/mlhc2020/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/mlhc2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differentially Private Top-k Selection via Stability on Unknown Domain</title>
+      <link>/publication/uai2020_2/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/uai2020_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MIDA Multiple Imputation using Denoising Autoencoders</title>
+      <link>/publication/pakdd2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/pakdd2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recovering loss to followup information using denoising autoencoders</title>
+      <link>/publication/bigdata2017/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/bigdata2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
