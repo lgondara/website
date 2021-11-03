@@ -3,202 +3,175 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/talk/example/</loc>
+    <loc>https://lovedeepgondara.com/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://lovedeepgondara.com/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>https://lovedeepgondara.com/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication-type/1/</loc>
+    <loc>https://lovedeepgondara.com/publication-type/1/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovedeepgondara.com/authors/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovedeepgondara.com/tag/differential-privacy/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovedeepgondara.com/author/ke-wang/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovedeepgondara.com/tag/lottery-tickets/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovedeepgondara.com/author/lovedeep-gondara/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovedeepgondara.com/publication_types/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovedeepgondara.com/publication/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovedeepgondara.com/author/ricardo-silva-carvalho/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovedeepgondara.com/tags/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovedeepgondara.com/publication/dpltm_arxiv/</loc>
+    <lastmod>2021-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lovedeepgondara.com/author/chunyan-miao/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>https://lovedeepgondara.com/publication/uai2020_1/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/chunyan-miao/</loc>
+    <loc>https://lovedeepgondara.com/publication/mlhc2020/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/differential-privacy/</loc>
+    <loc>https://lovedeepgondara.com/publication/uai2020_2/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/uai2020_1/</loc>
+    <loc>https://lovedeepgondara.com/tag/random-projections/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/mlhc2020/</loc>
+    <loc>https://lovedeepgondara.com/tag/survival-function/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/uai2020_2/</loc>
+    <loc>https://lovedeepgondara.com/tag/top-k-selection/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/ke-wang/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/lovedeep-gondara/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/random-projections/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/ricardo-silva-carvalho/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/survival-function/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/top-k-selection/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/lottery-tickets/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/dpltm_arxiv/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/</loc>
+    <loc>https://lovedeepgondara.com/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/example/</loc>
+    <loc>https://lovedeepgondara.com/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/autoencoders/</loc>
+    <loc>https://lovedeepgondara.com/tag/autoencoders/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/pakdd2018/</loc>
+    <loc>https://lovedeepgondara.com/publication/pakdd2018/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/missing-data/</loc>
+    <loc>https://lovedeepgondara.com/tag/missing-data/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/bigdata2017/</loc>
+    <loc>https://lovedeepgondara.com/publication/bigdata2017/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/deep-learning/</loc>
+    <loc>https://lovedeepgondara.com/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/demo/</loc>
+    <loc>https://lovedeepgondara.com/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/external-project/</loc>
+    <loc>https://lovedeepgondara.com/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/internal-project/</loc>
+    <loc>https://lovedeepgondara.com/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/</loc>
+    <loc>https://lovedeepgondara.com/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <loc>https://lovedeepgondara.com/categories/</loc>
   </url>
   
   <url>
-    <loc>/category/differential-privacy/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <loc>https://lovedeepgondara.com/post/</loc>
   </url>
   
   <url>
-    <loc>/post/getting-started/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/healthcare/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/healthcare/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <loc>https://lovedeepgondara.com/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
   
 </urlset>

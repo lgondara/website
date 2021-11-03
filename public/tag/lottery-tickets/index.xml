@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lottery tickets | Lovedeep Gondara</title>
-    <link>/tag/lottery-tickets/</link>
-      <atom:link href="/tag/lottery-tickets/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lovedeepgondara.com/tag/lottery-tickets/</link>
+      <atom:link href="https://lovedeepgondara.com/tag/lottery-tickets/index.xml" rel="self" type="application/rss+xml" />
     <description>Lottery tickets</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu35eb6c5be377148819867ba89aedcb11_438_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lovedeepgondara.com/images/icon_hu35eb6c5be377148819867ba89aedcb11_438_512x512_fill_lanczos_center_2.png</url>
       <title>Lottery tickets</title>
-      <link>/tag/lottery-tickets/</link>
+      <link>https://lovedeepgondara.com/tag/lottery-tickets/</link>
     </image>
     
     <item>
-      <title>The Differentially Private Lottery Ticket Mechanism</title>
-      <link>/publication/dpltm_arxiv/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/dpltm_arxiv/</guid>
+      <title>Training Differentially Private Neural Networks with Lottery Tickets</title>
+      <link>https://lovedeepgondara.com/publication/dpltm_arxiv/</link>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://lovedeepgondara.com/publication/dpltm_arxiv/</guid>
       <description></description>
     </item>
     
