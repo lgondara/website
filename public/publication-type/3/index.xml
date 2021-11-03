@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 | Lovedeep Gondara</title>
-    <link>/publication-type/3/</link>
-      <atom:link href="/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lovedeepgondara.com/publication-type/3/</link>
+      <atom:link href="https://lovedeepgondara.com/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu35eb6c5be377148819867ba89aedcb11_438_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lovedeepgondara.com/images/icon_hu35eb6c5be377148819867ba89aedcb11_438_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
-      <link>/publication-type/3/</link>
+      <link>https://lovedeepgondara.com/publication-type/3/</link>
     </image>
     
     <item>
       <title>The Differentially Private Lottery Ticket Mechanism</title>
-      <link>/publication/dpltm_arxiv/</link>
+      <link>https://lovedeepgondara.com/publication/dpltm_arxiv/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/dpltm_arxiv/</guid>
+      <guid>https://lovedeepgondara.com/publication/dpltm_arxiv/</guid>
       <description></description>
     </item>
     
