@@ -5,84 +5,12 @@
     <link>https://lovedeepgondara.com/publication/</link>
       <atom:link href="https://lovedeepgondara.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>https://lovedeepgondara.com/images/icon_hu35eb6c5be377148819867ba89aedcb11_438_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://lovedeepgondara.com/publication/</link>
     </image>
-    
-    <item>
-      <title>PubSub-ML - A Model Streaming Alternative to Federated Learning</title>
-      <link>https://lovedeepgondara.com/publication/pets2023/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://lovedeepgondara.com/publication/pets2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Differentially Private Ensemble Classifiers for Data Streams</title>
-      <link>https://lovedeepgondara.com/publication/wsdm2022/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://lovedeepgondara.com/publication/wsdm2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Training Differentially Private Neural Networks with Lottery Tickets</title>
-      <link>https://lovedeepgondara.com/publication/dpltm_arxiv/</link>
-      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://lovedeepgondara.com/publication/dpltm_arxiv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Incorporating Item Frequency for Differentially Private Set Union</title>
-      <link>https://lovedeepgondara.com/publication/aaai2022/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://lovedeepgondara.com/publication/aaai2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Differentially Private Small Dataset Release Using Random Projections</title>
-      <link>https://lovedeepgondara.com/publication/uai2020_1/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://lovedeepgondara.com/publication/uai2020_1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Differentially Private Survival Function Estimation</title>
-      <link>https://lovedeepgondara.com/publication/mlhc2020/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://lovedeepgondara.com/publication/mlhc2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Differentially Private Top-k Selection via Stability on Unknown Domain</title>
-      <link>https://lovedeepgondara.com/publication/uai2020_2/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://lovedeepgondara.com/publication/uai2020_2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MIDA Multiple Imputation using Denoising Autoencoders</title>
-      <link>https://lovedeepgondara.com/publication/pakdd2018/</link>
-      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://lovedeepgondara.com/publication/pakdd2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recovering loss to followup information using denoising autoencoders</title>
-      <link>https://lovedeepgondara.com/publication/bigdata2017/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://lovedeepgondara.com/publication/bigdata2017/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
