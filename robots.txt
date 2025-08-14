@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /research/
-Disallow: /talk/
-Disallow: /publication/
-Disallow: /tag/
-Disallow: /slides/
-Disallow: /project/
