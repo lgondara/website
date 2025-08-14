@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovedeep Gondara - Machine Learning Researcher</title>
+    <meta name="description" content="Machine Learning Researcher at Provincial Health Services Authority and Adjunct Professor at UBC">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-color: #fdfdfd;
+            --text-color: #333;
+            --card-bg: white;
+            --border-color: #2c3e50;
+            --accent-color: #3498db;
+            --hover-color: #2980b9;
+            --light-bg: #f8f9fa;
+            --shadow: rgba(0,0,0,0.1);
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --card-bg: #2d2d2d;
+            --border-color: #4a90e2;
+            --accent-color: #4a90e2;
+            --hover-color: #357abd;
+            --light-bg: #383838;
+            --shadow: rgba(255,255,255,0.1);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: var(--card-bg);
+            border-bottom: 2px solid var(--border-color);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px var(--shadow);
+            transition: background-color 0.3s;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--border-color);
+            transition: color 0.3s;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: color 0.3s;
+            padding: 5px 10px;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--hover-color);
+            border-bottom: 2px solid var(--hover-color);
+        }
+
+        .nav-controls {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: 2px solid var(--border-color);
+            color: var(--text-color);
+            padding: 8px 12px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        .theme-toggle:hover {
+            background: var(--hover-color);
+            color: white;
+            border-color: var(--hover-color);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--text-color);
+            cursor: pointer;
+        }
+
+        .section {
+            display: none;
+            min-height: calc(100vh - 100px);
+            padding: 40px 0;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+            background: linear-gradient(135deg, var(--light-bg) 0%, var(--bg-color) 100%);
+            margin-bottom: 40px;
+            transition: background 0.3s;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: var(--border-color);
+            transition: color 0.3s;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+
+        .affiliation {
+            font-size: 16px;
+            color: #5a6c7d;
+            margin-bottom: 30px;
+        }
+
+        .research-interests {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px var(--shadow);
+            margin-bottom: 40px;
+            transition: background-color 0.3s;
+        }
+
+        .research-interests h2 {
+            color: var(--border-color);
+            margin-bottom: 20px;
+            font-size: 28px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            transition: color 0.3s;
+        }
+
+        .interests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .interest-card {
+            background: var(--light-bg);
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid var(--accent-color);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .interest-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px var(--shadow);
+            border-left-color: var(--hover-color);
+        }
+
+        .interest-card h3 {
+            color: var(--border-color);
+            margin-bottom: 10px;
+            transition: color 0.3s;
+        }
+
+        .research-subtitle {
+            margin-top: 30px; 
+            margin-bottom: 15px; 
+            color: var(--border-color);
+            transition: color 0.3s;
+        }
+
+        .publication-link {
+            color: var(--hover-color);
+            transition: color 0.3s;
+        }
+
+        .publication-link:hover {
+            color: var(--accent-color);
+        }
+
+        .cv-download-section {
+            margin-top: 15px;
+        }
+
+        .cv-download-btn {
+            background: var(--hover-color);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .cv-download-btn:hover {
+            background: var(--accent-color);
+        }
+
+        .research-interests p {
+            color: var(--text-color);
+            transition: color 0.3s;
+        }
+
+        .interest-card p {
+            color: var(--text-color);
+            transition: color 0.3s;
+        }
+
+        .contact-info p {
+            color: var(--text-color);
+            transition: color 0.3s;
+        }
+
+        .cv-section p {
+            color: var(--text-color);
+            transition: color 0.3s;
+        }
+
+        .contact-info {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px var(--shadow);
+            transition: background-color 0.3s;
+        }
+
+        .contact-info h2 {
+            color: var(--border-color);
+            margin-bottom: 20px;
+            font-size: 28px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            transition: color 0.3s;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .cv-section {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px var(--shadow);
+            margin-bottom: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .cv-section h2 {
+            color: var(--border-color);
+            margin-bottom: 20px;
+            font-size: 28px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            transition: color 0.3s;
+        }
+
+        .cv-section h3 {
+            color: var(--border-color);
+            margin-bottom: 15px;
+            font-size: 22px;
+            transition: color 0.3s;
+        }
+
+        .position {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--light-bg);
+            transition: border-color 0.3s;
+        }
+
+        .position:last-child {
+            border-bottom: none;
+        }
+
+        .position-title {
+            font-weight: bold;
+            color: var(--border-color);
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        .institution {
+            color: #7f8c8d;
+            font-style: italic;
+            margin: 5px 0;
+        }
+
+        .duration {
+            color: #95a5a6;
+            font-size: 14px;
+        }
+
+        .description {
+            margin-top: 10px;
+            color: var(--text-color);
+            transition: color 0.3s;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+        }
+
+        .skill-category h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .skill-list {
+            list-style: none;
+        }
+
+        .skill-list li {
+            padding: 2px 0;
+            color: #555;
+        }
+
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .contact-icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: var(--border-color);
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        .contact-icon:hover {
+            color: var(--hover-color);
+            transform: translateY(-2px);
+        }
+
+        .contact-icon i {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .contact-icon span {
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        footer {
+            background: var(--border-color);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+            transition: background-color 0.3s;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--card-bg);
+                border-top: 1px solid var(--border-color);
+                flex-direction: column;
+                padding: 20px;
+                gap: 15px;
+                box-shadow: 0 4px 10px var(--shadow);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            h1 {
+                font-size: 36px;
+            }
+            
+            .contact-grid,
+            .interests-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-icons {
+                gap: 30px;
+            }
+
+            .nav-controls {
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Lovedeep Gondara</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#cv" class="nav-link">CV</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="hero">
+                <div class="container">
+                    <div class="profile-img">
+                        <img src="profile-photo.jpg" alt="Lovedeep Gondara" />
+                    </div>
+                    <h1>Lovedeep Gondara</h1>
+                    <div class="affiliation">
+                        <p><strong>Research Scientist - Team Lead</strong> | Provincial Health Services Authority</p>
+                        <p><strong>Adjunct Professor</strong> | University of British Columbia</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="research-interests">
+                    <h2>About</h2>
+                    <p>I am a machine learning researcher, currently working as a scientist and AI team lead at Provincial Health Services Authority. I also hold an Adjunct Professor position at University of British Columbia. My current work focuses on language models (large and small) and their applications in various domains. My broader research interests include general machine learning, differential privacy, and multimodal machine learning.</p>
+                    
+                    <h3 class="research-subtitle">Research Interests</h3>
+                    <div class="interests-grid">
+                        <div class="interest-card">
+                            <h3>Language Models</h3>
+                            <p>Large and small language models with applications across various domains, particularly in resource-constrained environments. Agentic methods and model grounding.</p>
+                        </div>
+                        <div class="interest-card">
+                            <h3>Privacy-Preserving ML</h3>
+                            <p>Differential privacy and privacy-preserving machine learning techniques for sensitive data applications.</p>
+                        </div>
+                        <div class="interest-card">
+                            <h3>Applied Machine Learning</h3>
+                            <p>Applying machine learning to solve complex real-world problems using approaches for text, vision, tabular, and multimodal data. Focus on translating research into practical solutions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <h2>Contact & Links</h2>
+                    <div class="contact-icons">
+                        <a href="https://scholar.google.ca/citations?user=2J8v1CQAAAAJ&hl=en" target="_blank" class="contact-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Google Scholar</span>
+                        </a>
+                        <a href="https://github.com/lgondara" target="_blank" class="contact-icon">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/lovedeepg/" target="_blank" class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:lovedeep.gondara@ubc.ca" class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV Section -->
+        <section id="cv" class="section">
+            <div class="container">
+                <div class="cv-section">
+                    <h3>Contact Information</h3>
+                    <div class="contact-grid">
+                        <div>
+                            <p><strong>Provincial Health Services Authority</strong><br>
+                            Data, Analytics, Reporting, and Evaluation<br>
+                            Vancouver, BC, V6H 1G9, Canada</p>
+                        </div>
+                        <div>
+                            <p><strong>University of British Columbia</strong><br>
+                            School of Population and Public Health<br>
+                            E-mail: lovedeep.gondara@ubc.ca</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Research Areas</h3>
+                    <p>Machine Learning, Large Language Models, Differential Privacy, Deep Learning, Decentralized Learning, Statistics, Application of ML and LLMs to various domains.</p>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Education</h3>
+                    <div class="position">
+                        <div class="position-title">Ph.D., Computer Science</div>
+                        <div class="institution">Simon Fraser University, Burnaby, BC, Canada</div>
+                        <div class="duration">2022</div>
+                    </div>
+                    
+                    <div class="position">
+                        <div class="position-title">M.S., Computer Science</div>
+                        <div class="institution">University of Illinois, Springfield, Illinois, USA</div>
+                        <div class="duration">2015</div>
+                    </div>
+
+                    <div class="position">
+                        <div class="position-title">Post-Baccalaureate Certificate (Applied Statistics/Data Analytics)</div>
+                        <div class="institution">University of the Fraser Valley, Abbotsford, BC, Canada</div>
+                        <div class="duration">2013</div>
+                    </div>
+
+                    <div class="position">
+                        <div class="position-title">B.Tech, Computer Science</div>
+                        <div class="institution">Punjab Technical University, Punjab, India</div>
+                        <div class="duration">2011</div>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Work Experience</h3>
+                    
+                    <div class="position">
+                        <div class="position-title">Research Scientist — Team Lead</div>
+                        <div class="institution">Provincial Health Services Authority, Vancouver, BC Canada</div>
+                        <div class="duration">June, 2023 - Present</div>
+                        <div class="description">
+                            • Lead the ML/AI endeavors at the BC Cancer Registry<br>
+                            • Design and develop NLP models for data abstraction, classification, and summarization<br>
+                            • Lead and guide the complete lifecycle of LLM development, including data collection and curation, pretraining, supervised finetuning, and alignment<br>
+                            • Develop and deploy RAG based and agentic methods to streamline operations<br>
+                            • Consider ethical implications in large language models, such as bias mitigation, fairness, privacy, and security concerns<br>
+                            • Collaborate with internal and external entities for research and to integrate NLP technologies into real-world applications and solutions<br>
+                            • Disseminate findings via research papers, technical reports, and documentation detailing the methodologies, findings, and insights at conferences, workshops, and internal/external meetings<br>
+                            • Supervise visiting researchers and students
+                        </div>
+                    </div>
+
+                    <div class="position">
+                        <div class="position-title">Adjunct Professor</div>
+                        <div class="institution">University of British Columbia, Vancouver, BC Canada</div>
+                        <div class="duration">January, 2024 - Present</div>
+                        <div class="description">
+                            • Adjunct professor at the School of Population and Public Health<br>
+                            • Guest lectures in areas of expertise<br>
+                            • Chair MSc and PhD dissertation exams as needed<br>
+                            • Supervise graduate students
+                        </div>
+                    </div>
+
+                    <div class="position">
+                        <div class="position-title">(Bio)Statistician/Data Scientist</div>
+                        <div class="institution">British Columbia Cancer Agency, Vancouver, BC Canada</div>
+                        <div class="duration">June, 2013 - June, 2023</div>
+                        <div class="description">
+                            • Design and analysis of clinical trials and retrospective studies using various models from statistics and machine learning<br>
+                            • Design and implementation of interactive dashboards to serve models for visualizing trends, performance monitoring, and predictions in real time<br>
+                            • Develop and implement state-of-the-art machine learning and statistical models for end-to-end operational and research pipelines<br>
+                            • Provide technical expertise regarding data architecture and data standards for the development and maintenance of databases to facilitate reporting and research<br>
+                            • Coordinate internal and external data requests for planning and research<br>
+                            • Participate in recruitment, selection, and training of junior data scientists, interns, and summer students
+                        </div>
+                    </div>
+
+                    <div class="position">
+                        <div class="position-title">Team Lead, Statistics</div>
+                        <div class="institution">British Columbia Cancer Agency, Vancouver, BC Canada</div>
+                        <div class="duration">Dec, 2018 - Mar, 2021</div>
+                        <div class="description">
+                            • Lead a team of statisticians and data scientists within Cancer Surveillance and Outcomes, Population Oncology<br>
+                            • Provide leadership to team members via technical expertise and the facilitation and demonstration of the principles of team work and collaboration<br>
+                            • Manage all incoming projects and ensure deliverables by assigning the projects to and coordinating with different team members
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Recent Selected Publications</h3>
+                    <div class="position">
+                        <div class="description">
+                            <strong>2025:</strong><br>
+                            1. Gondara, L., Simkin, J., Sayle, G., Devji, S., Arbour, G., & Ng, R. Small or Large? Zero-Shot or Finetuned? Guiding Language Model Choice for Specialized Applications in Healthcare. arXiv:2504.21191.<br><br>
+                            
+                            2. Beheshti, M., Gondara, L., & Zachary, I. Leveraging Language Models for Automated Patient Record Linkage. arXiv:2504.15261.<br><br>
+                            
+                            3. Gondara, L., Simkin, J., Devji, S.Arbour, G., & Ng, R. ELM: Ensemble of Language Models for Predicting Tumor Group from Pathology Reports. arXiv:2503.21800.<br><br>
+
+                            <strong>2024:</strong><br>
+                            4. Gondara, L., Simkin, J., & Devji, S. Clinical Trial Design Approach to Auditing Language Models in Health Care Setting. JCO Clinical Cancer Informatics, 9, e2400331.<br><br>
+                            
+                            5. Gondara, L., Simkin, J., Arbour, G., Devji, S., & Ng, R. Classifying Tumor Reportability Status From Unstructured Electronic Pathology Reports Using Language Models in a Population-Based Cancer Registry Setting. JCO Clinical Cancer Informatics, 8, e2400110.<br><br>
+
+                            <strong>2023:</strong><br>
+                            6. Gondara, L., & Wang, K. PubSub-ML: A Model Streaming Alternative to Federated Learning. Proceedings on Privacy Enhancing Technologies, 2, 464–479.<br><br>
+
+                            <em><a href="https://scholar.google.ca/citations?user=2J8v1CQAAAAJ&hl=en" target="_blank" class="publication-link">Click here for complete list</a></em>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Complete CV</h3>
+                    <div class="position">
+                        <div class="description">
+                            <p class="cv-download-section">
+                                <a href="https://lovedeepgondara.com/files/CV.pdf" target="_blank" class="cv-download-btn">Download Full CV (PDF)</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Lovedeep Gondara. All rights reserved.</p>
+            <p style="font-size: 14px; margin-top: 10px; opacity: 0.8;">Last updated: July 2025</p>
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggle functionality
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            // Update theme toggle icon
+            const themeToggle = document.querySelector('.theme-toggle i');
+            themeToggle.className = newTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+        }
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            const menuBtn = document.querySelector('.mobile-menu-btn i');
+            
+            navLinks.classList.toggle('active');
+            menuBtn.className = navLinks.classList.contains('active') ? 'fas fa-times' : 'fas fa-bars';
+        }
+
+        // Navigation functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load saved theme
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            
+            // Update theme toggle icon
+            const themeToggle = document.querySelector('.theme-toggle i');
+            themeToggle.className = savedTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+
+            const navLinks = document.querySelectorAll('.nav-link');
+            const sections = document.querySelectorAll('.section');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Remove active class from all nav links and sections
+                    navLinks.forEach(nl => nl.classList.remove('active'));
+                    sections.forEach(section => section.classList.remove('active'));
+                    
+                    // Add active class to clicked nav link
+                    this.classList.add('active');
+                    
+                    // Show corresponding section
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        targetSection.classList.add('active');
+                    }
+
+                    // Close mobile menu if open
+                    const navLinksContainer = document.querySelector('.nav-links');
+                    const menuBtn = document.querySelector('.mobile-menu-btn i');
+                    navLinksContainer.classList.remove('active');
+                    menuBtn.className = 'fas fa-bars';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
